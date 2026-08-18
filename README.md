@@ -16,6 +16,9 @@ cargo build --release        # target/release/k-gen
 rustc -O -o k-gen src/main.rs
 ```
 
+Prebuilt Linux and Windows binaries are attached to each
+[release](../../releases).
+
 ## Usage
 
 Usage:
