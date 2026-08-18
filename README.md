@@ -1,11 +1,18 @@
 # k-gen
 
-Random chromatic formula generator for improvisers.
+## Random chromatic formula generator for improvisers.
+
+This chromatic formulas generator is inspired by An Improviser's OS by Wayne Krantz —
+possibly the most interesting approach to creative improvisation ever put together.
+The book is available from [Wayne Krantz](https://waynekrantz.bandcamp.com/merch/wayne-krantz-an-improvisers-os-2nd-edition) directly.
 
 A *formula* is any subset of the twelve chromatic functions that contains the root:
 `1 b2 2 b3 3 4 b5 5 b6 6 b7 7`. There are 2048 of them, from `1` alone to the full
 chromatic scale. `k-gen` draws random ones for you to practice with — optionally
 spelled out as note names in a given key.
+
+This functionality (and some more) is also a part of my other project: [Solitito](https://github.com/greblus/solitito) - Real-Time Polyphonic Guitar Trainer
+(Formulas mode).
 
 ## Build
 
@@ -15,6 +22,9 @@ No dependencies, so either works:
 cargo build --release        # target/release/k-gen
 rustc -O -o k-gen src/main.rs
 ```
+
+Prebuilt Linux and Windows binaries are attached to each
+[release](../../releases).
 
 ## Usage
 
@@ -89,6 +99,3 @@ used instead, spelled to match the key.
 
 ---
 
-This chromatic formulas generator is inspired by An Improviser's OS by Wayne Krantz —
-possibly the most interesting approach to creative improvisation ever put together.
-The book is available from Wayne Krantz directly: waynekrantz.com.
