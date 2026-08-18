@@ -1,0 +1,14 @@
+[package]
+name = "k-gen"
+version = "1.0.0"
+edition = "2021"
+description = "Random chromatic formula generator for improvisers"
+
+[[bin]]
+name = "k-gen"
+path = "src/main.rs"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
